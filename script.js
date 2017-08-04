@@ -205,6 +205,8 @@ function displayQuestion(id) {
         //make circle disappear and entity appear
         var circle = document.getElementById("circle1")
         circle.setAttribute("visible", "false")
+        var openingText = document.getElementById("instructions")
+        openingText.setAttribute("visible","false")
         ent.setAttribute("visible", "true")
     }
 
